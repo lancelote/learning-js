@@ -1,5 +1,12 @@
 # IDE
 .idea/
 
-# Node
+# Project dependencies
 node_modules/
+
+# npm debugging logs
+npm-debug.log*
+
+# Temporary files
+*.tmp
+*~
