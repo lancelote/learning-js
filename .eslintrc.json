@@ -2,9 +2,17 @@
     "env": {
         "browser": true,
         "es6": true,
+        "node": true,
         "jquery": true
     },
     "extends": "eslint:recommended",
+    "parserOptions": {
+        "sourceType": "module",
+        "ecmaVersion": 6,
+        "ecmaFeatures": {
+            "impliedStrict": true
+        }
+    },
     "rules": {
         "indent": [
             "error",
@@ -23,11 +31,5 @@
             "always"
         ],
         "no-console": 0
-    },
-    "parserOptions": {
-        "ecmaVersion": 6,
-        "ecmaFeatures": {
-            "impliedStrict": true
-        }
     }
 }

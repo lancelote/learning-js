@@ -1,0 +1,26 @@
+{
+  "name": "learning-js",
+  "version": "1.0.0",
+  "description": "Code for Learning JS book by Ethan Brown",
+  "main": "main.js",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-preset-es2015": "^6.9.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-eslint": "^3.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lancelote/learning-js.git"
+  },
+  "author": "Pavel Karateev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lancelote/learning-js/issues"
+  },
+  "homepage": "https://github.com/lancelote/learning-js#readme"
+}

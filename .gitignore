@@ -9,4 +9,7 @@ npm-debug.log*
 
 # Temporary files
 *.tmp
-*~
+
+# ES5 generated code
+dist/
+public/dist/
